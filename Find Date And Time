@@ -1,0 +1,6 @@
+import datetime
+date = 2024 , 1 , 1. #year , day , date
+date = datetime.date.today()
+day_of_week = date.strftime("%A")
+print(date)
+print(day_of_week)
